@@ -7,7 +7,6 @@ InsightMail is a real-time, AI-powered feedback analytics dashboard. It ingests 
 ## 🚀 Live Demo
 
 👉 [View the live app on Streamlit](https://insightmail-feedback-analyzer-zwk4srrfq5wzarcvfe2vlw.streamlit.app/)
-📁 [GitHub Repository](https://github.com/yourusername/insightmail-feedback-analyzer)
 
 ---
 
