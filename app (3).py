@@ -23,8 +23,15 @@ col3.metric("Negative %", f"{(filtered['sentiment'] == 'negative').mean() * 100:
 
 # Charts
 st.markdown("### 📈 Sentiment Over Time")
-df['date'] = df['timestamp'].dt.date
+
+# Ensure 'date' column exists in both the original df and the filtered DataFrame
+df['date'] = df['timestamp'].dt.date   # Add date column to original df
+filtered['date'] = filtered['timestamp'].dt.date  # Add date column to filtered DataFrame
+
+# Now group by date and sentiment
 sentiment_over_time = filtered.groupby(['date', 'sentiment']).size().unstack(fill_value=0)
+
+# Visualize the result with Streamlit's line chart
 st.line_chart(sentiment_over_time)
 
 st.markdown("### 🧠 Topic Distribution")
