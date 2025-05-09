@@ -1,28 +1,28 @@
-# 📬 InsightMail – AI-Powered Customer Feedback Analyzer
+# InsightMail – AI-Powered Customer Feedback Analyzer
 
 InsightMail is a real-time, AI-powered feedback analytics dashboard. It ingests customer reviews, performs sentiment and topic analysis using Hugging Face NLP models, and visualizes insights in an interactive Streamlit dashboard.
 
 ---
 
-## 🚀 Live Demo
+## Live Demo
 
-👉 [View the live app on Streamlit](https://insightmail-feedback-analyzer-zwk4srrfq5wzarcvfe2vlw.streamlit.app/)
-
----
-
-## ✨ Features
-
-- 🔍 **Sentiment Analysis** using Hugging Face Transformers (no API key needed)
-- 🧠 **Topic Classification** with NLP rules
-- 📈 **Interactive Streamlit Dashboard**
-- 📊 Real-time KPIs: total reviews, % negative, average rating
-- 📅 Trend charts for sentiment over time
-- 🧠 Topic breakdown and word count distribution
-- 💾 Fully local, free, open-source solution
+ [View the live app on Streamlit](https://insightmail-feedback-analyzer-zwk4srrfq5wzarcvfe2vlw.streamlit.app/)
 
 ---
 
-## 🧱 Project Structure
+##  Features
+
+-  **Sentiment Analysis** using Hugging Face Transformers (no API key needed)
+-  **Topic Classification** with NLP rules
+-  **Interactive Streamlit Dashboard**
+-  Real-time KPIs: total reviews, % negative, average rating
+-  Trend charts for sentiment over time
+-  Topic breakdown and word count distribution
+-  Fully local, free, open-source solution
+
+---
+
+##  Project Structure
 
 insightmail-feedback-analyzer/
 ├── app.py # Streamlit dashboard code
@@ -39,7 +39,7 @@ insightmail-feedback-analyzer/
 
 ---
 
-## 📂 Dataset
+##  Dataset
 
 - Source: [Amazon Fine Food Reviews Dataset on Kaggle](https://www.kaggle.com/datasets/snap/amazon-fine-food-reviews)
 - Used columns:
@@ -49,31 +49,31 @@ insightmail-feedback-analyzer/
 
 ---
 
-## 🧠 Sentiment & Topic Analysis
+##  Sentiment & Topic Analysis
 
-### ✅ Sentiment
+###  Sentiment
 - Model: Hugging Face `distilbert-base-uncased-finetuned-sst-2-english`
 - Labels: `positive`, `negative`
 
-### ✅ Topic Classification
+###  Topic Classification
 - Rule-based keywords for:
   - `delivery`, `pricing`, `product quality`, `customer service`, `other`
 
 ---
 
-## 📊 Dashboard Preview
+##  Dashboard Preview
 
 | Section | Description |
 |---------|-------------|
-| 🧭 Filters | Sidebar with sentiment + topic selection |
-| 📌 KPIs | Total reviews, average rating, % negative |
-| 📈 Sentiment Trends | Line chart by day and sentiment |
-| 📦 Topic Distribution | Bar chart of topic frequency |
-| 🗣 Word Count | Histogram of word counts per review |
+|  Filters | Sidebar with sentiment + topic selection |
+|  KPIs | Total reviews, average rating, % negative |
+|  Sentiment Trends | Line chart by day and sentiment |
+|  Topic Distribution | Bar chart of topic frequency |
+|  Word Count | Histogram of word counts per review |
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Layer           | Tool                              |
 |-----------------|-----------------------------------|
@@ -85,7 +85,7 @@ insightmail-feedback-analyzer/
 
 ---
 
-## 🧪 How to Run Locally
+## How to Run Locally
 
 ```bash
 # 1. Clone the repo
