@@ -26,12 +26,19 @@ InsightMail is a real-time, AI-powered feedback analytics dashboard. It ingests 
 
 insightmail-feedback-analyzer/
 ├── app.py # Streamlit dashboard code
+
 ├── requirements.txt # For Streamlit Cloud deployment
+
 ├── labeled_reviews_free.csv # Final data with sentiment/topic labels
+
 ├── README.md # This file
+
 └── notebooks/
+
 ├── 01_data_cleaning.ipynb
+
 ├── 02_sentiment_topic.ipynb
+
 └── 03_sentiment_topic_free.ipynb
 
 
